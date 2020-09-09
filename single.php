@@ -8,7 +8,7 @@
             <h1 class='my-3'><?php the_title(); ?></h1>
             <div class="row">
                 <div class="col-6">
-                    <?php the_post_thumbnail('large'); ?>
+                    <?php the_post_thumbnail('small'); ?>
                 </div>
                 <div class="col-6">
                     <?php the_content(); ?>
